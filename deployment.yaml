@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fuse-integration-project
+  labels:
+    app: fuse-integration-project
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fuse-integration-project
+  template:
+    metadata:
+      labels:
+        app: fuse-integration-project
+    spec:
+      containers:
+        - name: fuse-integration-project
+          image: quay.io/bishoy_adly/fuse-integration-project
+          ports:
+            - containerPort: 8080

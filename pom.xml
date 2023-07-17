@@ -14,7 +14,7 @@
     <docker.image.version>1.9</docker.image.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <fuse.version>7.11.1.fuse-sb2-7_11_1-00017-redhat-00002</fuse.version>
-    <image.path>quay.io/repository/bishoy_adly/fuse-integration-project</image.path>
+    <image.path>quay.io/bishoy_adly/fuse-integration-project</image.path>
   </properties>
   <dependencyManagement>
     <dependencies>
